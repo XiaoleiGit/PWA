@@ -8,6 +8,7 @@ Traditional WA:limited device feature access; high reach, no boarders;
 
 PWA: high capability, high reach.
 
+--
 
 
 ### App Manifest.
@@ -16,6 +17,7 @@ Make your PWA installable.
 
 Properties: {"name":"","start_url":"/index.html","scope":".","display":"standalone","background_color":"","theme_color":"", ...}
 
+--
 
 
 ### Service workers
@@ -33,3 +35,11 @@ Properties: {"name":"","start_url":"/index.html","scope":".","display":"standalo
 3. User interaction with notification
 4. Background syncronization
 5. Service worker life cycle
+
+#### Registering a sw.js
+
+1. The location of sw.js matters. If you want to cover all the pages, add sw.js in home directory
+2. Register it in app.js
+
+
+
