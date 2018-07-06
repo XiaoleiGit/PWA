@@ -3,9 +3,7 @@
 #### PWA VS. Native mobile apps
 
 Native apps: high capability; low reach. Top ranking apps occupy most customers, while other apps lost opportunity;
-
 Traditional WA:limited device feature access; high reach, no boarders;
-
 PWA: high capability, high reach.
 
 
@@ -29,5 +27,6 @@ Properties: {"name":"","start_url":"/index.html","scope":".","display":"standalo
 #### The events that service workers listen to:
 
 1. Fetch
-
-2. 
+2. Push notifications from server
+3. User interaction with notification
+4. Background syncronization
