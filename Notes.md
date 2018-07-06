@@ -23,7 +23,7 @@ Properties: {"name":"","start_url":"/index.html","scope":".","display":"standalo
 #### Enable you install WA on home screen.  Make your application work offline.
 
 1. Runs on additional thread, decoupled from HTML pages;
-2. Manage all pages on given scope. So html page is not only attached to its javascript;
+2. Manage all pages on given scope. SW is not only attached to single html page;
 3. Run in background. Live on even after pages have been closed. 
 
 #### The events that service workers listen to:
